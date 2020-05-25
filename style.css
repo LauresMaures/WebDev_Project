@@ -68,9 +68,13 @@ html, body {
 }
 .welcome hr {
 	border-top: 2px solid #b4b4b4;
-	width: 95%;
+	width: 31.5%;
 	margin-top: .3rem;
 	margin-bottom: 1rem;
+}
+
+.card {
+	height: 100%;
 }
 
 .fa-code {
@@ -131,23 +135,7 @@ html, body {
 footer {
 	background-color: #3f3f3f;
 	color: #d5d5d5;
-	padding-top: 2rem;
-}
-hr.light {
-	border-top: 1px solid #d5d5d5;
-	width: 75%;
-	margin-top: .8rem;
-	margin-bottom: 1rem;
-}
-/*--- keep phone number in light grey cause otherwise it would be blue (=default link color) --*/
-footer a {
-	color: #d5d5d5;
-}
-hr.light-100 {
-	border-top: 1px solid #d5d5d5;
-	width: 100%;
-	margin-top: .8rem;
-	margin-bottom: 1rem;
+	padding-top: .5rem;
 }
 
 
@@ -237,7 +225,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/bg_freiburg.jpg');
+  background-image: url('img/bg_letter_writing.jpg');
   position: fixed;
   display: block;
   top: 0;
