@@ -43,6 +43,9 @@ html, body {
 	margin-top: .3rem;
 	margin-bottom: 1rem;
 }
+.author {
+	padding-top: 0.5rem;
+}
 
 /*poets*/
 .card {
@@ -61,67 +64,22 @@ footer {
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-	.social a {
-		font-size: 4em;
-		padding: 2rem;
-	}
+
  }
 @media (max-width: 768px) {
-  	.carousel-caption {
-		top: 45%;
-	}
-
-	.carousel-caption h1 {
-		font-size: 350%;
-	}
-
-	.carousel-caption h3 {
-		font-size: 140%;
-		font-weight: 400;
-		padding-bottom: .2rem;
-	}
-
-	.carousel-caption .btn {
-		font-size: 95%;
-		padding: 8px 14px;
-	}
 	.display-4 {
 		font-size: 200%;
 	}
 	.poem_headline {
 		font-size: 150%;
 	}
-	.social a {
-		font-size: 2.5em;
-		padding: 1.2rem;
-	}
 }
 @media (max-width: 576px) {
-	.carousel-caption {
-		top: 40%;
-	}
-	.carousel-caption h1 {
-		font-size: 250%;
-	}
-	.carousel-caption h3 {
-		font-size: 110%;
-	}
-	.carousel-caption .btn {
-		font-size: 90%;
-		padding: 4px 8px;
-	}
-	.carousel-indicators {
-		display: none;
-	}
 	.display-4 {
 		font-size: 160%;
 	}
 	.poem_headline {
 		font-size: 120%;
-	}
-	.social a {
-		font-size: 2em;
-		padding: .7rem;
 	}
 }
 
@@ -170,8 +128,6 @@ figure {
 
 
 
-
-
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
@@ -188,11 +144,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
